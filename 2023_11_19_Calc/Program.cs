@@ -7,6 +7,7 @@ string ex = Console.ReadLine();
 string[] exr=ex.Split(' ');
 if (exr.Length != 3)
 {
+    Console.WriteLine("Let's Start!!");
     Console.WriteLine($"Oopppps :( , Did you see the example???");
     return;
 }
